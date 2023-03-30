@@ -118,10 +118,10 @@ pre {
 /* .lineinp1 {
     /* display: block; */
 /* } */
-*/ .lineinp1 {
+/* .lineinp1 {
   margin-left: 45px;
   display: flex;
-}
+} */
 
 .lineinp2 {
   margin-left: 45px;
