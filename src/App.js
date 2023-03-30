@@ -17,8 +17,8 @@ function App() {
         <Routes>
           <Route
             path="/"
-            // element={user ? <SurveyListPage /> : <Navigate to="/SignIn" />}
-            element={<SurveyListPage />}
+            element={user ? <SurveyListPage /> : <Navigate to="/SignIn" />}
+            // element={<SurveyListPage />}
           ></Route>
           <Route
             path="/SignIn"
@@ -26,8 +26,8 @@ function App() {
           ></Route>
           <Route
             path="/Register"
-            // element={!user ? <Register /> : <Navigate to="/SurveyList" />}
-            element={<Register />}
+            element={!user ? <Register /> : <Navigate to="/SurveyList" />}
+            // element={<Register />}
           ></Route>
           <Route
             path="/SurveyList"
